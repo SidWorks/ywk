@@ -50,8 +50,7 @@ html.is-animating .transition-fade {
 
 body {
     color: #2f2f2f;
-    font-family: poppins;
-    @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 }
 
 img {

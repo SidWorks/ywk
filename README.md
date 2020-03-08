@@ -1,1 +1,3 @@
-# ywk
+# YogaWithKush
+
+# Made by Soma

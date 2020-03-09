@@ -1,9 +1,7 @@
 @font-face {
-  font-family: "HelveticaNeueLTPro-Md";
-  src: url("fonts/HelveticaNeueLTPro-Md.eot?#iefix") format("embedded-opentype"),
-    url("fonts/HelveticaNeueLTPro-Md.otf") format("opentype"),
-    url("fonts/HelveticaNeueLTPro-Md.woff") format("woff"),
-    url("fonts/HelveticaNeueLTPro-Md.ttf") format("truetype");
+  font-family: "Poppins";
+  src:
+    url("fonts/poppins.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -1223,7 +1221,7 @@ a:active {
 --------------------------------------------------------------*/
 .footer-bar {
   padding: 70px 0;
-  background: #987939;
+  background: #24243E;
 }
 
 .footer-copyright p {

@@ -129,6 +129,10 @@ a:active {
   margin: 0;
 }
 
+.fa-heart {
+  color: crimson;
+}
+
 /*
 # Header Bar Email
 --------------------------------*/
@@ -1213,13 +1217,13 @@ a:active {
 --------------------------------------------------------------*/
 .footer-bar {
   padding: 70px 0;
-  background: #2f2f2f;
+  background: #987939;
 }
 
 .footer-copyright p {
   margin: 0;
-  font-size: 13px;
-  color: #b8b8b8;
+  font-size: 16px;
+  color: #ffffff;
   text-align: center;
 }
 

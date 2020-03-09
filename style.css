@@ -215,6 +215,7 @@ a:active {
 .site-title {
   font-size: 72px;
   font-family: "BeyondTheMountains";
+
 }
 
 .site-title a {
@@ -301,7 +302,24 @@ a:active {
   left: 50%;
 }
 
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 /*
+
+
 # Main Menu
 --------------------------------*/
 .site-navigation {

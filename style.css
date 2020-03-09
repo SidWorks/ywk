@@ -19,8 +19,12 @@
   font-style: normal;
 }
 
-html {
+html,
+body {
   scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .benifits {
@@ -33,6 +37,7 @@ html {
   transition: 0.4s;
   opacity: 1;
 }
+
 
 html.is-animating .transition-fade {
   opacity: 0;
@@ -366,7 +371,7 @@ a:active {
   height: auto;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-container-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
   bottom: 30px;
@@ -424,6 +429,7 @@ a:active {
 }
 
 @media screen and (min-width: 768px) {
+
   .swiper-button-next,
   .swiper-button-prev {
     visibility: visible;
